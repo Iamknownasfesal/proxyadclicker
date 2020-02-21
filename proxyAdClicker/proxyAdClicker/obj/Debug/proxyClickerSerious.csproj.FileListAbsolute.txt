@@ -1,0 +1,9 @@
+C:\Users\Fesal\Desktop\A\proxyClickerSerious\proxyClickerSerious\bin\Debug\proxyClickerSerious.exe.config
+C:\Users\Fesal\Desktop\A\proxyClickerSerious\proxyClickerSerious\bin\Debug\proxyClickerSerious.exe
+C:\Users\Fesal\Desktop\A\proxyClickerSerious\proxyClickerSerious\bin\Debug\proxyClickerSerious.pdb
+C:\Users\Fesal\Desktop\A\proxyClickerSerious\proxyClickerSerious\obj\Debug\proxyClickerSerious.csprojAssemblyReference.cache
+C:\Users\Fesal\Desktop\A\proxyClickerSerious\proxyClickerSerious\obj\Debug\proxyClickerSerious.Form1.resources
+C:\Users\Fesal\Desktop\A\proxyClickerSerious\proxyClickerSerious\obj\Debug\proxyClickerSerious.Properties.Resources.resources
+C:\Users\Fesal\Desktop\A\proxyClickerSerious\proxyClickerSerious\obj\Debug\proxyClickerSerious.csproj.GenerateResource.cache
+C:\Users\Fesal\Desktop\A\proxyClickerSerious\proxyClickerSerious\obj\Debug\proxyClickerSerious.exe
+C:\Users\Fesal\Desktop\A\proxyClickerSerious\proxyClickerSerious\obj\Debug\proxyClickerSerious.pdb
