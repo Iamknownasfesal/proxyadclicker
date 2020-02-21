@@ -22,3 +22,10 @@ proxyAdClicker\proxyAdClicker\bin\Debug\proxyAdClicker.exe
   
 Bu yol yapısı sayesinde, son versiyonu açabilir, deneyebilirsiniz.
 (Şuanki versiyonda bir şey deneyemeyebilirsiniz açıkçası.)
+
+## Bu Projenin Kodlarına Nereden Ulaşabilirim ?
+
+proxyAdClicker\proxyAdClicker\Form1.cs
+
+Bu yol yapısı sayesinde, son versiyonun kodlarını açabilirsiniz.
+(Bütün kodların neredeyse üstüne açıklama satırı ekledim, daha anlaşılabilir bir kod yapısına sahip olabilmek için.)
