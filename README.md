@@ -21,4 +21,4 @@ Bu proje Proxy sunucularını kullanarak Sitelerdeki Reklam resimlerine tıklama
 proxyAdClicker\proxyAdClicker\bin\Debug\proxyAdClicker.exe
   
 Bu yol yapısı sayesinde, son versiyonu açabilir, deneyebilirsiniz.
-(Şuanki versiyonda bir şey deneyemeyebilirsiniz açıkçası
+(Şuanki versiyonda bir şey deneyemeyebilirsiniz açıkçası.)
