@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,7 +15,7 @@ namespace proxyClickerSerious
     public partial class Form1 : Form
     {
         RegistryKey reg_key;
-        Uri proxyLink = new Uri("https://free-proxy-list.net");
+        readonly Uri proxyLink = new Uri("https://free-proxy-list.net");
         public Form1()
         {
             InitializeComponent();
@@ -143,14 +143,5 @@ namespace proxyClickerSerious
             MessageBox.Show("Bu yazı yerine proxy iplerinin sayısına kadar yazılabilir.", "Proxy Clicker");
         }
 
-        private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
-        {
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
