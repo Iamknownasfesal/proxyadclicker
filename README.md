@@ -1,6 +1,6 @@
 # Proxy Ad Clicker
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/324d335a577b4a11a0ae8bc947e9a26b)](https://app.codacy.com/manual/Iamknownasfesal/proxyadclicker?utm_source=github.com&utm_medium=referral&utm_content=Iamknownasfesal/proxyadclicker&utm_campaign=Badge_Grade_Dashboard)
+[![Codacy Badge]([![Codacy Badge](https://api.codacy.com/project/badge/Grade/64126cdecbda4ebbbf79270f23fd2eb2)](https://www.codacy.com/manual/Iamknownasfesal/proxyadclicker?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Iamknownasfesal/proxyadclicker&amp;utm_campaign=Badge_Grade))
 
 ## Projenin amacı nedir ?
 Bu proje Proxy sunucularını kullanarak Sitelerdeki Reklam resimlerine tıklamak için yazılmıştır.
