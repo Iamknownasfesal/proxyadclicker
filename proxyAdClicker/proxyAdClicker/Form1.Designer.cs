@@ -1,4 +1,4 @@
-﻿namespace proxyClickerSerious
+namespace proxyClickerSerious
 {
     partial class Form1
     {
@@ -200,7 +200,6 @@
             this.MinimizeBox = false;
             this.Name = "Form1";
             this.Text = "Proxy Ad Clicker";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
