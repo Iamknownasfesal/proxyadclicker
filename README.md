@@ -12,12 +12,10 @@ Bu proje Proxy sunucularını kullanarak Sitelerdeki Reklam resimlerine tıklama
 - [X] Programın Siteye Giriş Yapması
 - [X] webBrowser Form Yapısı Kurulması.
 - [X] Bir resime tıklaması.(Belirlenen kadar).
-- [ ] Proxy Sunucularını Kullanma (Test Lazım (Public IP Değişmeyebilir (VPN TEKNİĞİ GEREKEBİLİR) ) )
 - [X] Dışarıdan Proxy Sunucusu Alma
-- [ ] PHP ile Dışarıdan Proxy Sunucusu Alma
-- [ ] Detaylı Bug Fix
-- [ ] webBrowser Form Yapısını Kaldırıp HttpRequest Tipine Geçme
+- [X] Detaylı Bug Fix
 - [X] Daha Optimizasyonlu Kod
+- [ ] Proxy Sunucularını Kullanma (Test edildi. (Çalışmayabilir.) )
 
 ## Bu Programı Hangi Dosyadan Açabilirim ?
 
