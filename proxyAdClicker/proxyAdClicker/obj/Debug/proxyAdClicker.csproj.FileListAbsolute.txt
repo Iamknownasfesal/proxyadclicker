@@ -16,3 +16,12 @@ C:\Users\Fesal\Desktop\A\proxyAdClicker\proxyAdClicker\obj\Debug\proxyAdClicker.
 C:\Users\Fesal\Desktop\A\proxyAdClicker\proxyAdClicker\obj\Debug\proxyAdClicker.csproj.GenerateResource.cache
 C:\Users\Fesal\Desktop\A\proxyAdClicker\proxyAdClicker\obj\Debug\proxyAdClicker.exe
 C:\Users\Fesal\Desktop\A\proxyAdClicker\proxyAdClicker\obj\Debug\proxyAdClicker.pdb
+C:\Users\Fesal\Desktop\Projeler\proxyadclicker\proxyAdClicker\proxyAdClicker\bin\Debug\proxyAdClicker.exe.config
+C:\Users\Fesal\Desktop\Projeler\proxyadclicker\proxyAdClicker\proxyAdClicker\bin\Debug\proxyAdClicker.exe
+C:\Users\Fesal\Desktop\Projeler\proxyadclicker\proxyAdClicker\proxyAdClicker\bin\Debug\proxyAdClicker.pdb
+C:\Users\Fesal\Desktop\Projeler\proxyadclicker\proxyAdClicker\proxyAdClicker\obj\Debug\proxyAdClicker.csprojAssemblyReference.cache
+C:\Users\Fesal\Desktop\Projeler\proxyadclicker\proxyAdClicker\proxyAdClicker\obj\Debug\proxyClickerSerious.Form1.resources
+C:\Users\Fesal\Desktop\Projeler\proxyadclicker\proxyAdClicker\proxyAdClicker\obj\Debug\proxyAdClicker.Properties.Resources.resources
+C:\Users\Fesal\Desktop\Projeler\proxyadclicker\proxyAdClicker\proxyAdClicker\obj\Debug\proxyAdClicker.csproj.GenerateResource.cache
+C:\Users\Fesal\Desktop\Projeler\proxyadclicker\proxyAdClicker\proxyAdClicker\obj\Debug\proxyAdClicker.exe
+C:\Users\Fesal\Desktop\Projeler\proxyadclicker\proxyAdClicker\proxyAdClicker\obj\Debug\proxyAdClicker.pdb
