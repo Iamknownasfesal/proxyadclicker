@@ -44,6 +44,9 @@ namespace proxyClickerSerious
             this.ipAdress = new System.Windows.Forms.TextBox();
             this.port = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // imageID
@@ -173,6 +176,36 @@ namespace proxyClickerSerious
             this.label4.TabIndex = 14;
             this.label4.Text = "Proxy Adresleri\r\n\r\n";
             // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(284, 59);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(72, 29);
+            this.button3.TabIndex = 15;
+            this.button3.Text = "Bağlan";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click_1);
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(721, 37);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 16;
+            this.button4.Text = "Oto Ekle";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(748, 14);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(19, 23);
+            this.button5.TabIndex = 17;
+            this.button5.Text = "ı";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -180,6 +213,9 @@ namespace proxyClickerSerious
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 554);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.port);
             this.Controls.Add(this.ipAdress);
@@ -222,6 +258,9 @@ namespace proxyClickerSerious
         private System.Windows.Forms.TextBox ipAdress;
         private System.Windows.Forms.TextBox port;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
     }
 }
 

@@ -194,13 +194,16 @@ namespace proxyClickerSerious
             else
             {
                 int git = int.Parse(numberOfClicks.Text);
-
-
                 for (int i = 0; i < git; i++)
                 {
                     webBrowser1.DocumentCompleted += wb_islemTamamlandi2;
-                    webBrowser1.Refresh();
                     ClearCache();
+                    webBrowser1.Navigate(new Uri(URL.Text));
+
+                    while (webBrowser1.ReadyState != WebBrowserReadyState.Complete)
+                    {
+                        Application.DoEvents();
+                    }
 
                     // Proxy Sunucusu Değiştir
                     reg_key = Registry.CurrentUser.OpenSubKey(@"Software\Microsoft\Windows\CurrentVersion\Internet Settings", true);
@@ -237,25 +240,13 @@ namespace proxyClickerSerious
                 //Proxy Listesini Temizle
                 ipList.Items.Clear();
                 portList.Items.Clear();
+
+                boslugaGotur();
             }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-
-            // Ekle tuşuna basıldığında proxy eklenecek!
-            webBrowser1.AllowNavigation = true;
-            //Site tablosundan otomatik proxy listesi almak için
-            webBrowser1.Navigate(@proxyLink);
-            webBrowser1.Refresh();
-            ClearCache();
-
-            webBrowser1.DocumentCompleted += wb_DocumentCompleted;
-            ClearCache();
-
-            // Ekle tuşunu otomatik yapmak için alttaki inputları şuanlık kaldırdım.
-
-            /*int parsedValue;
             if (ipAdress.Text == "" || ipAdress.Text == " " || port.Text == "" || port.Text == " ")
             {
                 MessageBox.Show("IP Adresi ve PORT girme zorunluluğu vardır.", "Proxy Clicker");
@@ -267,14 +258,11 @@ namespace proxyClickerSerious
                 portList.Items.Add(port.Text);
                 ipAdress.Text = "";
                 port.Text = "";
-            }*/
+            }
         }
 
         private void wb_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
         {
-            //indesleri belirle
-            int[] HucreNumaralari = new int[] { 0, 1 };
-
             // Tabloyu al.
             HtmlElement tablo = webBrowser1.Document.GetElementById("proxylisttable");
             // Satırları Al
@@ -292,6 +280,7 @@ namespace proxyClickerSerious
 
             //Başarıyla yapıldı fakat blank'e götürmüyor.
             MessageBox.Show("En güncel proxy sunucuları eklendi.", "Proxy Clicker");
+            boslugaGotur();
             webBrowser1.DocumentCompleted -= wb_DocumentCompleted;
 
         }
@@ -304,12 +293,13 @@ namespace proxyClickerSerious
         private void wb_islemTamamlandi(object sender, WebBrowserDocumentCompletedEventArgs e)
         {
             Application.DoEvents();
-            webBrowser1.Refresh();
             ClearCache();
             webBrowser1.DocumentCompleted -= wb_islemTamamlandi;
         }
         private void wb_islemTamamlandi2(object sender, WebBrowserDocumentCompletedEventArgs e)
         {
+            
+            ClearCache();
             Application.DoEvents();
             webBrowser1.DocumentCompleted -= wb_islemTamamlandi2;
         }
@@ -319,18 +309,38 @@ namespace proxyClickerSerious
             MessageBox.Show("Bu yazı yerine proxy iplerinin sayısına kadar yazılabilir.", "Proxy Clicker");
         }
 
-        private void webBrowser1_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
-        {
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
+        private void button3_Click_1(object sender, EventArgs e)
         {
             webBrowser1.AllowNavigation = true;
             webBrowser1.ScriptErrorsSuppressed = true;
             webBrowser1.Navigate(new Uri(URL.Text));
             webBrowser1.DocumentCompleted += wb_islemTamamlandi;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            // Ekle tuşuna basıldığında proxy eklenecek!
+            webBrowser1.AllowNavigation = true;
+            //Site tablosundan otomatik proxy listesi almak için
+            webBrowser1.Navigate(@proxyLink);
+            webBrowser1.Refresh();
             ClearCache();
+
+            webBrowser1.DocumentCompleted += wb_DocumentCompleted;
+            ClearCache();
+        }
+
+        private void boslugaGotur()
+        {
+            webBrowser1.AllowNavigation = true;
+            webBrowser1.Navigate(new Uri("about:blank"));
+            webBrowser1.DocumentCompleted += wb_islemYapiliyor;
+            ClearCache();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Bedava proxy sitesinden 20 tane proxy ipsi ve portu ekler(10 dakikada bir site yenilenir).", "Proxy Clicker");
         }
     }
 }
