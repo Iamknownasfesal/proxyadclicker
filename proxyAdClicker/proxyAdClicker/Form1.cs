@@ -212,10 +212,10 @@ namespace proxyClickerSerious
                     reg_key.SetValue("ProxyServer", proxy);
 
                     // Her fotoğraf
-                    foreach (HtmlElement elem in webBrowser1.Document.GetElementsByTagName("img"))
+                    foreach (HtmlElement elem in webBrowser1.Document.GetElementsByTagName("a"))
                     {
                         //Src linki verilen url olan    
-                        if (elem.GetAttribute("src").ToString() == imageID.Text)
+                        if (elem.GetAttribute("href").ToString() == imageID.Text)
                         {
                             //Tıkla
                             elem.InvokeMember("Click");

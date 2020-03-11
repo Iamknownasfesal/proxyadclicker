@@ -73,11 +73,11 @@ namespace proxyClickerSerious
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(37, 14);
+            this.label1.Location = new System.Drawing.Point(47, 14);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 13);
+            this.label1.Size = new System.Drawing.Size(54, 13);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Resim Link :";
+            this.label1.Text = "Link href :";
             // 
             // label2
             // 
